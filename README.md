@@ -164,13 +164,3 @@ Amdahl's Law keeps the problem size fixed (strong scaling). It assumes the total
 Gustafson's Law instead keeps the time fixed and lets the problem size grow (weak scaling). The idea is: if you have 64 cores, you don't run the same small problem faster — you solve a problem 64 times bigger in the same amount of time. In this case, the sequential part stays small compared to the much larger parallel part, so the speedup grows almost linearly with the number of cores (≈46×).
 
 In short: Amdahl's Law shows that adding cores has diminishing returns for a fixed-size task, while Gustafson's Law shows that if the task also grows with the hardware, near-linear scaling is possible. Neither law is "wrong" — they just describe two different real-world use cases: making the same job finish faster (Amdahl) versus doing a bigger job in the same time (Gustafson).
-
----
-
-## Deliverables
-
-- [x] Task 1 — 4 tables + Q1.1
-- [x] Task 2 — scaling table + Q2.1
-- [x] Task 3 — race condition tables + Q3.1 + Q3.2
-- [x] Task 4 — Amdahl/Gustafson calculations + Q4.1
-- [ ] Terminal screenshot verifying Task 2 executing across active threads
