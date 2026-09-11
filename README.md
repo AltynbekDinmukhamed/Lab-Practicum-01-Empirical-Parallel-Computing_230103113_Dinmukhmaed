@@ -1,0 +1,1 @@
+# Lab-Practicum-01-Empirical-Parallel-Computing_230103113_Dinmukhmaed
