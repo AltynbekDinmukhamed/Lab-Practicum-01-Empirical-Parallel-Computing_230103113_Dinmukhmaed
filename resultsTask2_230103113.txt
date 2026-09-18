@@ -1,0 +1,3 @@
+Adjacent Indices (False Sharing): 0.7370s
+Padded Indices (Cache-Aligned): 0.7277s
+Slowdown Factor: 1.01x
